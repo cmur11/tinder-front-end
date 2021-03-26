@@ -1,0 +1,19 @@
+.header {
+    display:flex;
+    /*  1 line */
+    align-items: center;
+    justify-content: space-between;
+    /* equal space between items in header */
+    z-index: 100;
+    border-bottom: 1px solid #f9f9f9;
+    /* very subtle border */
+}
+
+.header_logo{
+    object-fit: contain;
+    height: 40px;
+}
+
+.header_icon{
+    padding: 20px;
+}
